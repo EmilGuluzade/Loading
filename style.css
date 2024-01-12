@@ -1,0 +1,41 @@
+* {
+  
+margin: 0;
+padding: 0;
+  box-sizing: border-box;
+}
+body {margin: 0px;
+  background-color: #000000;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.container {
+ 
+  width: 400px;
+  height: auto;
+  text-align: center;
+  position: relative;
+}
+.counter { 
+      margin: 20px 0px;
+  font-size: 40px;
+}
+.loadingBarFront {
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  height: 10px;
+  position: absolute;
+  width: 10%;
+}
+.loadingBarBack {
+  width: 100%;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  height: 10px;
+}
